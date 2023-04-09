@@ -11,6 +11,10 @@ body {
 }
 
 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     text-align: center;
     font-size: 25px;
 }
@@ -59,7 +63,7 @@ li button {
 
 .card {
   display: block;
-  background-color:	#FFFFE0;
+  background-color:	#fff2e0;
   border: 1px solid #eceff1;
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
@@ -71,6 +75,8 @@ li button {
 
 .button {
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     border: 2px solid rgb(112, 0, 56); 
@@ -78,5 +84,5 @@ li button {
     font-weight: bold;
     border-radius: 3px;
     padding: 15px 20px;
-    box-shadow: inset 2px 2px 3px rgba(255, 131, 131, 0.6), inset -2px -2px 3px rgba(255, 32, 169, 0.6);
+    margin: 20px;
 }
