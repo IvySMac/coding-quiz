@@ -19,6 +19,13 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  margin: 0;
+}
 
 .card {
   display: block;
