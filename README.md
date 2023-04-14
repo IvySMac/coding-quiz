@@ -5,10 +5,11 @@ To have a little bit of fun, my class and I are to create a quiz to test the ski
 
 ## Usage
 
+![a tan box sits in the middle of the site with text inside that reads 'Coding Quiz Challenge'. Underneath it is a tagline that reads 'Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!'. Below the tagline is a pink button that says start](quiz-screenshot.jpg)
 
 Use this short little quiz to help test your knowledge on coding!
 
-<a href="">Live Site</a>
+<a href="https://ivysmac.github.io/coding-quiz/">Live Site</a>
 
 ## User Story
 
