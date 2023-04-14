@@ -1,10 +1,14 @@
 # Coding Quiz
 
 ## Description 
-coming soon
+To have a little bit of fun, my class and I are to create a quiz to test the skills that we have learned through the course. 
 
 ## Usage
-coming soon
+
+
+Use this short little quiz to help test your knowledge on coding!
+
+<a href="">Live Site</a>
 
 ## User Story
 
