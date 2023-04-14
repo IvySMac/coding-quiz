@@ -38,4 +38,5 @@ THEN I can save my initials and my score
 ```
 
 ## Credits
-coming soon
+
+The CSS used to create the card was borrowed from a KU Bootcamp activity. This code is strictly used for educational purposes.  
