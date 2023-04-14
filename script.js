@@ -41,12 +41,12 @@ var questions = [
   }
 ]
 
-
+//this creates the timer
 function countdown() {
     var timeInterval = setInterval(function () {
       timeLeft--;
       timerEl.textContent ="Timer: " + timeLeft; 
-  
+      //this if statement allows the timer to hit zero and stop
       if(timeLeft === 0) {
         clearInterval(timeInterval);
       }
@@ -54,13 +54,13 @@ function countdown() {
   }
 
 
-
+//Hides the start button and front page text when you hit start
 function startQuiz() {
     startButton.classList.add('hide')
     questionContainerElement.classList.remove('hide')
     quizRules.classList.add('hide')
     setQuestion()
-    countdown();
+    countdown(); //adding this here triggers the timer to start when the START button is hit
 }
 
 function setQuestion() {
@@ -83,7 +83,7 @@ questions[index].choices.forEach(function(choice){
     }
   setQuestion()
   })
-  answerButtons.appendChild(button)
+  answerButtons.appendChild(button) //adds our answer buttons
 })
 
 }

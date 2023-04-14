@@ -27,6 +27,7 @@ h2 {
   margin: 0;
 }
 
+/*change the styling of the main box/card here*/
 .card {
   display: block;
   background-color:	#fff2e0;
@@ -39,6 +40,7 @@ h2 {
   width: 60vw;
 }
 
+/*this styles the answer and start button(s)*/
 .btn-style {
     display: flex;
     justify-content: center;
@@ -52,11 +54,12 @@ h2 {
     padding: 15px 20px;
     margin: 20px;
 }
-
+/*this is needed to help hide our content when going through questions*/
 .hide {
     display: none;
 }
 
+/*targets and styles the text of the questions*/
 #question {
   font-size: 30px;
   text-indent: 20px;
